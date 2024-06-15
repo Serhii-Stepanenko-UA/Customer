@@ -6,4 +6,9 @@ public class Main {
         String output = "Customer: " + customer.getName() + ", phone " + customer.getPhone();
         System.out.println(output);
     }
+
+    public static String[] getData() {
+        String[] data;
+        return new String[]{"Tom", "555 123-8596"};
+    }
 }
