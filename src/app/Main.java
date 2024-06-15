@@ -8,7 +8,6 @@ public class Main {
     }
 
     public static String[] getData() {
-        String[] data;
         return new String[]{"Tom", "555 123-8596"};
     }
 
