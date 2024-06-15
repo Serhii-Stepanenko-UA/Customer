@@ -11,4 +11,8 @@ public class Main {
         String[] data;
         return new String[]{"Tom", "555 123-8596"};
     }
+
+    public static Customer getCustomer(String[] data) {
+        return new Customer(data[0], data[1]);
+    }
 }
