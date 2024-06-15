@@ -15,4 +15,8 @@ public class Main {
     public static Customer getCustomer(String[] data) {
         return new Customer(data[0], data[1]);
     }
+
+    public static void getOutput(String output) {
+        System.out.println(output);
+    }
 }
